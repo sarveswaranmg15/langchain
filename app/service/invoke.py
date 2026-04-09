@@ -4,7 +4,7 @@ from app.utils.constants import SYSTEM_PROMPT
 import json
 
 def invoke_model(query: str):
-    response = gemini_model.invoke(
+    response = groq_model.invoke(
     [
         {
             "role":"system",
